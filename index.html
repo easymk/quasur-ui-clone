@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuasarUI Clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
-    <!-- nav bar start -->
-
+<body>
+  <!-- Navbar -->
+  <div class="nav">
     <div class="nav-container">
       <div class="logo">
-        <h1>Quasurui</h1>
+        <h1>QuasarUI</h1>
       </div>
 
       <div class="nav-links">
@@ -32,618 +26,479 @@
           <li>Docs</li>
           <div class="empty-line"></div>
           <li>Sign in</li>
-          <button class="nav-btn">Get lifetime acess</button>
+          <button class="nav-btn">Get lifetime access</button>
         </ul>
       </div>
 
       <div class="menu-icon">
-        <img src="Assets/menu.png" alt="menu icon" />
+        <i class="fas fa-bars"></i>
       </div>
     </div>
+  </div>
 
-    <!-- round bar start -->
 
-    <div class="round-bar">
-      <p class="round-paragraph1">
-        Development Offer <span>.</span
-        ><span class="round-paragraph2">Get 67% off</span>
+  <!-- Round Bar -->
+  <div class="round-bar">
+    <p class="round-paragraph1">
+      Development Offer <span>.</span>
+      <span class="round-paragraph2">Get 67% off</span>
+    </p>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <div class="left-side">
+      <p class="left-side-paragraph-1">By Hafiz Javaid Iqbal</p>
+      <h1 class="left-side-heading-1">
+        Build Faster, Design Better with QuasarUI Components and Templates
+      </h1>
+      <p class="left-side-paragraph-2">
+        QuasarUI is a collection of templates and over 480 beautifully crafted
+        UI components built with Quasar aimed at making your development
+        process easier and faster.
       </p>
+      <div class="left-side-btns">
+        <button class="browse-btn">
+          Browse components
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <button class="explore-btn">
+          Explore Templates
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
     </div>
 
-    <!-- round bar end -->
-
-    <!-- hero section start -->
-
-    <div class="hero-section">
-      <div class="left-side">
-        <p class="left-side-paragraph-1">By Hafiz Javaid Iqbal</p>
-        <h1 class="left-side-heading-1">
-          Build Faster, Design Better with <br />QuasarUI Components and <br />
-          Templates
-        </h1>
-        <p class="left-side-paragraph-2">
-          QuasarUI is a collection of templates and over 480 beautifully crafted
-          UI components <br />built with Qusar aimed at making your development
-          process easier and faster.
-        </p>
-        <div class="left-side-btns">
-          <button class="browse-btn">
-            browse components
-            <i class="fa-solid fa-arrow-right"></i>
-          </button>
-
-          <button class="explore-btn">
-            Explore Templates
-            <i class="fa-solid fa-arrow-right"></i>
-          </button>
+    <div class="right-side">
+      <div class="icons">
+        <i class="fa-brands fa-github"></i>
+        <div>
+          <span class="headingicon">Over 500+ components</span>
+          <p class="headingparagraph">
+            Beautifully designed and simple to use components that support
+            both light and dark mode themes. Created to make your
+            development process faster and easier.
+          </p>
         </div>
       </div>
 
-      <div class="right-side">
-        <div class="icons">
-          <i class="fa-brands fa-github"></i>
+      <div class="icons-2">
+        <i class="fa-solid fa-clock-rotate-left"></i>
+        <div>
+          <span class="headingicon">Continuously updated</span>
           <p class="headingparagraph">
-            <span class="headingicon">over 500+ componenets</span><br />
-            Beautifully designed and simple to use components that support
-            <br />
-            both light and dark mode themes. Created to make your
-            <br />development process faster and easier.
+            Components are added and updated regularly to ensure you
+            always have the latest and greatest examples.
           </p>
         </div>
-
-        <div class="icons-2">
-          <i class="fa-solid fa-clock-rotate-left"></i>
-          <p class="headingparagraph">
-            <span class="headingicon">Continuously updated</span><br />
-
-            Components are added and updated regularly to ensure you <br />
-            both light and dark mode themes. always have the latest and greatest
-            examples.
-          </p>
+      </div>
+      
+      <div class="icons-3">
+        <div class="quasur-img">
+          <img src="Assets/quasur icon.png" alt="">
         </div>
-        <div class="icons-3">
-          <div class="img-icon">
-            <img src="Assets/quasur icon.png" alt="" class="quasur-img" />
-          </div>
-
+        <div>
+          <span class="headingicon">Built with Quasar</span>
           <p class="headingparagraph">
-            <span class="headingicon">Built with Quasar </span><br />
-            All components are built 100% using Quasar, the most complete<br />
+            All components are built 100% using Quasar, the most complete
             Vue.js component framework.
           </p>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--hero section end -->
+  <!-- Components Section -->
+  <div class="components-intro">
+    <p class="components-paragraph-1">Components</p>
+    <h1>Beautifully crafted UI components</h1>
+    <p class="components-paragraph-2">
+      Over 500+ professionally designed, fully responsive, expertly crafted
+      component examples you can drop into your Quasar projects and customize 
+      to your heart's content.
+    </p>
+  </div>
 
-    <!-- components section start -->
+  <!-- Components Nav -->
+  <div class="second-list">
+    <ul>
+      <li>Application ui</li>
+      <li>Marketing</li>
+      <li>Ecommerce</li>
+    </ul>
+  </div>
 
-    <div class="components-intro">
-      <p class="components-paragraph-1">Components</p>
-      <h1>Beautifully crafted UI components</h1>
-      <p class="components-paragraph-2">
-        Over 500+ professionally designed, fully responsive, expertly crafted
-        component examples <br />
-        can drop into your Quasar projects and customize to your heart’s
-        content.
-      </p>
+  <!-- Components Grid -->
+  <div class="container-box">
+    <div class="card">
+      <img src="Assets/blankimage.png" alt="Card Headers">
+      <h5 class="ch">Card Headers</h5>
+      <p class="cp">7 Components</p>
+    </div>
+    <div class="card">
+      <img src="Assets/blankimage.png" alt="Page Headings">
+      <h5 class="ch">Page Headings</h5>
+      <p class="cp">10 Components</p>
+    </div>
+    <div class="card">
+      <img src="Assets/blankimage.png" alt="Timeline">
+      <h5 class="ch">Timeline</h5>
+      <p class="cp">11 Components</p>
+    </div>
+    <div class="card">
+      <img src="Assets/blankimage.png" alt="Grid">
+      <h5 class="ch">Grid</h5>
+      <p class="cp">4 Components</p>
+    </div>
+    <div class="card">
+      <img src="Assets/blankimage.png" alt="Templates">
+      <h5 class="ch">Templates</h5>
+      <p class="cp">2 Components</p>
+    </div>
+    <div class="card">
+      <img src="Assets/blankimage.png" alt="Section Headings">
+      <h5 class="ch">Section Headings</h5>
+      <p class="cp">7 Components</p>
+    </div>
+  </div>
+
+  <div class="btn-card">
+    <button>Show more...</button>
+  </div>
+
+  <!-- Pricing Section -->
+  <div class="pricing-content">
+    <p class="pricing-content-paragraph-1">Pricing</p>
+    <h1>Unlimited Quasar UI</h1>
+    <p class="pricing-content-paragraph-2">
+      Your purchase gives you lifetime access to all current and future Quasar
+      UI components. Use them in personal or commercial projects without
+      any additional fees.
+    </p>
+  </div>
+
+  <div class="pricing-container">
+    <div class="pricing-page-1">
+      <div class="pricing-content-1">
+        <p>Get with all-access</p>
+        <button class="nav-btn">Get lifetime access</button>
+      </div>
+
+      <div class="pricing-content-2">
+        <h1><del>$299</del> $99</h1>
+        <p>
+          <b>One time payment</b> <br>
+          Plus local taxes
+        </p>
+      </div>
+
+      <div class="pricing-content-3">
+        <p>
+          Get <b>lifetime access</b> to all of the application UI, marketing,
+          and ecommerce components, as well as all of our site templates for a
+          single one-time purchase.
+        </p>
+      </div>
+
+      <div class="pricing-content-line-break"></div>
+
+      <div class="pricing-icons">
+        <img src="Assets/box.svg" alt="Box Icon">
+        <div class="conte-nt">
+          <h1>Over 500+ Components</h1>
+          <p>
+            Everything you need to build beautiful application UIs,
+            marketing sites, ecommerce stores, and more.
+          </p>
+        </div>
+      </div>
+
+      <div class="pricing-icons">
+        <img src="Assets/template.svg" alt="Template Icon">
+        <div class="conte-nt">
+          <h1>Every site template</h1>
+          <p>
+            Beautifully designed, expertly crafted website templates built
+            with modern technologies like Quasar and Nuxt.
+          </p>
+        </div>
+      </div>
+
+      <div class="pricing-icons">
+        <img src="Assets/inifinity.svg" alt="Infinity Icon">
+        <div class="conte-nt">
+          <h1>Lifetime access</h1>
+          <p>
+            Your purchase gives you lifetime access to all current and
+            future QuasarUI components. Use them in personal or commercial
+            projects without any additional fees.
+          </p>
+        </div>
+      </div>
     </div>
 
-    <!-- components section end -->
+    <div class="pricing-page-2">
+      <div class="pricing-page-2-content-1">
+        <p>Application UI</p>
+        <button class="pricing-page-2-btn">Unlock package</button>
+      </div>
 
-    <!-- components nav bar start -->
+      <div class="pricing-content-2">
+        <h1><del>$149</del> $99</h1>
+        <p>Plus local taxes</p>
+      </div>
 
-    <div class="second-list">
+      <div class="pricing-content-3">
+        <p>
+          Form layouts, tables, dialogs — all of the components you need to
+          build beautiful responsive web applications.
+        </p>
+      </div>
+
+      <div class="pricing-content-line-break"></div>
+
+      <div class="pricing-page-2-content-2">
+        <p>Marketing</p>
+        <button class="pricing-page-2-btn">Unlock package</button>
+      </div>
+
+      <div class="pricing-content-2">
+        <h1><del>$149</del> $99</h1>
+        <p>Plus local taxes</p>
+      </div>
+
+      <div class="pricing-content-3">
+        <p>
+          Heroes, feature sections, newsletter sign up forms — all of the
+          components you need to build beautiful marketing websites.
+        </p>
+      </div>
+
+      <div class="pricing-content-line-break"></div>
+
+      <div class="pricing-page-2-content-3">
+        <p>Ecommerce</p>
+        <button class="pricing-page-2-btn">Unlock package</button>
+      </div>
+
+      <div class="pricing-content-2">
+        <h1><del>$149</del> $99</h1>
+        <p>Plus local taxes</p>
+      </div>
+
+      <div class="pricing-content-3">
+        <p>
+          Checkout forms, shopping carts, product views — all of the
+          components you need to build your next ecommerce front-end.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQs Section -->
+  <div class="faqs-content-section">
+    <p class="faqs-paragraph-1">FAQs</p>
+    <h1>Frequently Asked Questions</h1>
+    <p class="faqs-paragraph-2">
+      If you have any other questions / suggestions / requests, feel free to
+      reach out to me at
+      <span class="e-mail">hafizjaidi786@gmail.com</span> I'm happy to help!
+    </p>
+  </div>
+
+  <!-- FAQ Content -->
+  <div class="first-faqs-paragraph">
+    <p>General</p>
+  </div>
+
+  <div class="questions">
+    <div class="question-1">
+      <p>What is the all-access pass?</p>
+      <i class="fa-solid fa-angle-down"></i>
+    </div>
+    <div class="question-1">
+      <p>Is there a recurring fee?</p>
+      <i class="fa-solid fa-angle-down"></i>
+    </div>
+    <div class="question-1">
+      <p>How do I access the QuasarUI components?</p>
+      <i class="fa-solid fa-angle-down"></i>
+    </div>
+    <div class="question-1">
+      <p>What is Quasar?</p>
+      <i class="fa-solid fa-angle-down"></i>
+    </div>
+    <div class="question-1">
+      <p>What is the difference between QuasarUI and Quasar?</p>
+      <i class="fa-solid fa-angle-down"></i>
+    </div>
+    <div class="question-1">
+      <p>What does the lock symbol mean?</p>
+      <i class="fa-solid fa-angle-down"></i>
+    </div>
+  </div>
+
+  <!-- Roadmap Section -->
+  <div class="road-map">
+    <p>Roadmap</p>
+    <h1>What's Next</h1>
+  </div>
+
+  <div class="road-map-container">
+    <div class="container-1">
+      <button>Planned</button>
+      <div class="container-1-empty-line"></div>
+      <div class="sub-container-1">
+        <div class="road-map-card-1">
+          <h1>Ecommerce shop</h1>
+          <p>Ecommerce shop template using Vue & Quasar</p>
+        </div>
+        <div class="road-map-card-2">
+          <h1>Admin Template</h1>
+          <p>
+            A complete admin panel for general purpose so you can use with 
+            multiple projects using Vue & Quasar
+          </p>
+        </div>
+        <div class="road-map-card-2">
+          <h1>Portfolio Website</h1>
+          <p>
+            A minimalistic and developer friendly portfolio website so you 
+            can share your work with others using Nuxt & Quasar
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-2">
+      <button>In Progress</button>
+      <div class="container-1-empty-line"></div>
+      <div class="sub-container-2">
+        <div class="road-map-card-c2">
+          <h1>Marketing Components</h1>
+          <p>
+            Complete all of the existing defined components in marketing
+            category
+          </p>
+        </div>
+        <div class="road-map-card-c2">
+          <h1>Ecommerce components</h1>
+          <p>
+            Complete all of the existing defined components in ecommerce
+            category
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-3">
+      <button>Completed</button>
+      <div class="container-3-empty-line"></div>
+      <div class="sub-container-3">
+        <div class="road-map-card-c2">
+          <h1>100+ components</h1>
+          <p>
+            Completed 100+ components in different categories for marketing
+            and application-ui
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+   
+  <div class="footer">
+    <div class="first-footer-list">
       <ul>
-        <li>Application ui</li>
-        <li>Marketing</li>
-        <li>Ecommerce</li>
+        <li class="first-word">Marketing</li>
+        <li class="simple-word">Hero section</li>
+        <li class="simple-word">Feature section</li>
+        <li class="simple-word">CTA Section</li>
+        <li class="simple-word">Pricing Sections</li>
+        <li class="simple-word">Header Sections</li>
+        <li class="simple-word">Stats</li>
+        <li class="simple-word">Testmonials</li>
+        <li class="simple-word">Contact sections</li>
+        <li class="simple-word">Team Sections</li>
+        <li class="simple-word">Content Sections</li>
+        <li class="simple-word">logo Sections</li>
+        <li class="simple-word">Blog Sections</li>
+        <li class="simple-word">FAQS</li>
+        <li>
+          <button class="footer-btn">
+            Browse all <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </li>
       </ul>
     </div>
 
-    <!-- components nav bar end -->
-
-    <!-- components card start -->
-
-    <div class="container-box">
-      <div class="card">
-        <img src="Assets/blankimage.png" alt="" />
-        <h5 class="ch">card headings</h5>
-        <p class="cp">7 Components</p>
-      </div>
-      <div class="card">
-        <img src="Assets/blankimage.png" alt="" />
-        <h5 class="ch">Page headings</h5>
-        <p class="cp">10 Components</p>
-      </div>
-      <div class="card">
-        <img src="Assets/blankimage.png"">
-        <h5 class="ch">timline</h5>
-        <p class="cp">11 Components</p>
-      </div>
-      <div class="card">
-        <img src="Assets/blankimage.png" alt="" />
-        <h5 class="ch">grid</h5>
-        <p class="cp">4 Components</p>
-      </div>
-      <div class="card">
-        <img src="Assets/blankimage.png" alt="" />
-        <h5 class="ch">template</h5>
-        <p class="cp">2 Components</p>
-      </div>
-      <div class="card">
-        <img src="Assets/blankimage.png" alt="" />
-        <h5 class="ch">section headings</h5>
-        <p class="cp">7 Components</p>
-      </div>
+    <div class="second-footer-list">
+      <ul>
+        <li class="first-word">Ecommerce</li>
+        <li class="simple-word">Product reviews</li>
+        <li class="simple-word">Product List</li>
+        <li class="simple-word">Category previews</li>
+        <li class="simple-word">Shopping Carts</li>
+        <li class="simple-word">category filter</li>
+        <li class="simple-word">Product quick reviews</li>
+        <li class="simple-word">Product Features</li>
+        <li class="simple-word">Store Navigation</li>
+        <li class="simple-word">Promo Scetions</li>
+        <li class="simple-word">Checkout Forms</li>
+        <li class="simple-word">Reviews</li>
+        <li class="simple-word">Order Summary</li>
+        <li class="simple-word">Order History</li>
+        <li>
+          <button class="footer-btn">
+            Browse all <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </li>
+      </ul>
     </div>
 
-    <div class="btn-card">
-      <button>show more...</button>
+    <div class="third-footer-list">
+      <ul>
+        <li class="first-word">Application UI</li>
+        <li class="simple-word">Product reviews</li>
+        <li class="simple-word">Product List</li>
+        <li class="simple-word">Category previews</li>
+        <li class="simple-word">Shopping Carts</li>
+        <li class="simple-word">category filter</li>
+        <li class="simple-word">Product quick reviews</li>
+        <li class="simple-word">Product Features</li>
+        <li class="simple-word">Store Navigation</li>
+        <li class="simple-word">Promo Scetions</li>
+        <li class="simple-word">Checkout Forms</li>
+        <li class="simple-word">Reviews</li>
+        <li class="simple-word">Order Summary</li>
+        <li class="simple-word">Order History</li>
+        <li>
+          <button class="footer-btn">
+            Browse all <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </li>
+      </ul>
     </div>
+  </div>
 
-    <!-- components card end  -->
-
-    <!-- pricing section start -->
-
-    <!-- pricing-content -->
-
-    <div class="pricing-content">
-      <p class="pricing-content-paragraph-1">Pricing</p>
-      <h1>Unlimited Qusar UI</h1>
-      <p class="pricing-content-paragraph-2">
-        Your purchase gives you lifetime access to all current and future Qusar
-        UI components. Use them <br />in personal or commercial projects without
-        any additional fees.
+  <!-- Main Footer -->
+  <div class="main-footer">
+    <div class="social-media">
+      <i class="fa-brands fa-github-alt"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-regular fa-envelope"></i>
+    </div>
+    <div class="main-footer-content">
+      <p>
+        Contact us:
+        <span class="main-footer-email"> hafizjaidi786@gmail.com</span>
       </p>
     </div>
-
-    <!-- pricing-content-end -->
-
-    <!-- pricing-page start -->
-
-    <div class="pricing-container">
-      <div class="pricing-page-1">
-        <div class="pricing-content-1">
-          <p>Get with all-acess</p>
-          <button class="nav-btn">Get lifetime acess</button>
-        </div>
-
-        <div class="pricing-content-2">
-          <h1><del>$299</del>$99</h1>
-          <p>
-            <b> one time payment</b> <br />
-            plus local taxes
-          </p>
-        </div>
-
-        <div class="pricing-content-3">
-          <p>
-            Get <b> lifetime access </b>to all of the application UI, marketing,
-            <br />
-            and ecommerce components, as well as all of our site templates for a
-            single one-time purchase.
-          </p>
-        </div>
-
-        <div class="pricing-content-line-break"></div>
-
-        <div class="pricing-side-1">
-          <div class="icons">
-            <i class="fa-brands fa-github"></i>
-            <p class="headingparagraph" class="pare">
-              <span class="headingicon">over 500+ componenets</span><br />
-              everything you need to build beautiful application UIs, marketing
-              sites, ecommerce stores, and more.
-            </p>
-          </div>
-
-          <div class="icons-2">
-            <i class="fa-solid fa-clock-rotate-left"></i>
-            <p class="headingparagraph">
-              <span class="headingicon">Every site template</span><br />
-
-              beautifully designed, expertly crafted website templates built
-              with modern technologies like Quasar and Nuxt.
-            </p>
-          </div>
-          <div class="icons-3">
-            <div class="img-icon">
-              <img src="Assets/quasur icon.png" alt="" class="quasur-img" />
-            </div>
-
-            <p class="headingparagraph">
-              <span class="headingicon">Lifetime access </span><br />
-              Your purchase gives you lifetime access to all current and future
-              QuasarUI components. Use them in personal or commercial projects
-              without any additional fees.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="pricing-page-2">
-        <div class="pricing-page-2-content-1">
-          <p>Application UI</p>
-          <button class="pricing-page-2-btn">unlock package</button>
-        </div>
-
-        <div class="pricing-content-2">
-          <h1><del>$149</del>$99</h1>
-          <p>plus local taxes</p>
-        </div>
-
-        <div class="pricing-content-3">
-          <p>
-            Form layouts, tables, dialogs — all of the components you need to
-            build beautiful responsive web applications.
-          </p>
-        </div>
-
-        <div class="pricing-content-line-break"></div>
-
-        <div class="pricing-page-2-content-2">
-          <p>Marketing</p>
-          <button class="pricing-page-2-btn">unlock package</button>
-        </div>
-
-        <div class="pricing-content-2">
-          <h1><del>$149</del>$99</h1>
-          <p>plus local taxes</p>
-        </div>
-
-        <div class="pricing-content-3">
-          <p>
-            Heroes, feature sections, newsletter sign up forms — all of the
-            components you need to build beautiful marketing websites.
-          </p>
-        </div>
-
-        <div class="pricing-content-line-break"></div>
-
-        <div class="pricing-page-2-content-3">
-          <p>Ecommerce</p>
-          <button class="pricing-page-2-btn">unlock package</button>
-        </div>
-
-        <div class="pricing-content-2">
-          <h1><del>$149</del>$99</h1>
-          <p>plus local taxes</p>
-        </div>
-
-        <div class="pricing-content-3">
-          <p>
-            Checkout forms, shopping carts, product views — all of the
-            components you need to build your next ecommerce front-end.
-          </p>
-        </div>
-      </div>
+    <div class="copyright-content">
+      <i class="fa-regular fa-copyright"></i>
+      <p>2024 QuasarUI</p>
     </div>
-
-    <!-- pricing end -->
-
-    <div class="faqs-content-section">
-      <p class="faqs-paragraph-1">Faqs</p>
-      <h1>Frequently Asked questions</h1>
-      <p class="faqs-paragraph-2">
-        If you have any other questions / suggestions / requests, feel free to
-        reach out to me at <br />
-        <span class="e-mail">hafizjaidi786@gmail.com</span> I'm happy to help!
-      </p>
-    </div>
-
-    <!-- genral question -->
-
-    <div class="first-faqs-paragraph">
-      <p>Genral</p>
-    </div>
-
-    <div class="questions">
-      <div class="question-1">
-        <p>What is the all-access pass?</p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-
-      <div class="question-1">
-        <p>Is there a recurring fee?</p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-
-      <div class="question-1">
-        <p>How do I access the QuasarUI components?</p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-
-      <div class="question-1">
-        <p>What is Quasar?</p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-
-      <div class="question-1">
-        <p>What is the difference between QuasarUI and Quasar?</p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-
-      <div class="question-1">
-        <p>What does the lock symbol mean?</p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-    </div>
-
-    <!-- genral question end    -->
-
-    <!-- licensing question start -->
-
-    <div class="first-faqs-paragraph">
-      <p>Licensing</p>
-    </div>
-
-    <div class="questions-2">
-      <div class="question-1">
-        <p>
-          Do I have to purchase a license for each project I use these QuasarUI
-          components in?
-        </p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-
-      <div class="question-1">
-        <p>Can I use these QuasarUI componets in Commercial projects?</p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-
-      <div class="question-1">
-        <p>Can I modify the QuasarUI componets?</p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-
-      <div class="question-1">
-        <p>Can I use these QuasarUI componets in an Open Source project?</p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-    </div>
-
-    <!-- licensing question end -->
-
-    <!-- compatibility question start -->
-
-    <div class="first-faqs-paragraph">
-      <p>Compatibility</p>
-    </div>
-
-    <div class="questions-3">
-      <div class="question-1">
-        <p>What versions of Quasar are these components compatible with?</p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-
-      <div class="question-1">
-        <p>What browsers are supported?</p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-
-      <div class="question-1">
-        <p>
-          Do any of the packages come with Figma, Sketch, or Adobe XD files?
-        </p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-    </div>
-
-    <!-- compatibility question end  -->
-
-    <!-- support question start -->
-
-    <div class="first-faqs-paragraph">
-      <p>Support</p>
-    </div>
-
-    <div class="questions-4">
-      <div class="question-1">
-        <p>What versions of Quasar are these components compatible with?</p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-
-      <div class="question-1">
-        <p>What browsers are supported?</p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-
-      <div class="question-1">
-        <p>What browsers are supported?</p>
-        <i class="fa-solid fa-angle-down"></i>
-      </div>
-    </div>
-
-    <!-- support question end -->
-
-    <div class="road-map">
-      <p>Roadmap</p>
-      <h1>what's next</h1>
-    </div>
-
-    <!-- road map start -->
-
-    <div class="road-map-container">
-      <div class="container-1">
-        <button>planned</button>
-
-        <div class="container-1-empty-line"></div>
-
-        <div class="sub-container-1">
-          <div class="road-map-card-1">
-            <h1>Ecommerce shop</h1>
-            <p>Ecommerce shop template using Vue & Quasar</p>
-          </div>
-
-          <div class="road-map-card-2">
-            <h1>Admin Template</h1>
-            <p>
-              A complete admin panel for general purpose so <br />
-              you can use with multiple projects using Vue <br />
-              & Quasar
-            </p>
-          </div>
-
-          <div class="road-map-card-2">
-            <h1>Portfolio Website</h1>
-            <p>
-              A minimalistic and developer friendly portfolio <br />
-              website so you can share your work with others <br />
-              using Nuxt & Quasar
-            </p>
-          </div>
-
-          <div class="road-map-card-2">
-            <h1>Blog Website</h1>
-            <p>
-              A blog template so you can share your knowledge with others using
-              (Nuxt, Quasar, and Nuxt Content) OR (Vitepress and Quasar)
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container-2">
-        <button>In progress</button>
-
-        <div class="container-1-empty-line"></div>
-
-        <div class="sub-container-2">
-          <div class="road-map-card-c2">
-            <h1>Marketing Components</h1>
-            <p>
-              Complete all of the existing defined components in marketing
-              cateogry
-            </p>
-          </div>
-
-          <div class="road-map-card-c2">
-            <h1>Ecommerce components</h1>
-            <p>
-              Complete all of the existing defined components in ecommerce
-              cateogry
-            </p>
-          </div>
-
-          <div class="road-map-card-c2">
-            <h1>Application UI components</h1>
-            <p>
-              Complete all of the existing defined components in Application UI
-              cateogry
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container-3">
-        <button>Completed</button>
-
-        <div class="container-3-empty-line"></div>
-
-        <div class="sub-container-3">
-          <div class="road-map-card-c2">
-            <h1>100+ components</h1>
-            <p>
-              Completed 100+ components in different categories for marketing
-              and application-ui
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- road map end -->
-
-    <div class="footer">
-      <div class="first-footer-list">
-        <ul>
-          <li class="first-word">Marketing</li>
-          <li class="simple-word">Hero section</li>
-          <li class="simple-word">Feature section</li>
-          <li class="simple-word">CTA Section</li>
-          <li class="simple-word">Pricing Sections</li>
-          <li class="simple-word">Header Sections</li>
-          <li class="simple-word">Stats</li>
-          <li class="simple-word">Testmonials</li>
-          <li class="simple-word">Contact sections</li>
-          <li class="simple-word">Team Sections</li>
-          <li class="simple-word">Content Sections</li>
-          <li class="simple-word">logo Sections</li>
-          <li class="simple-word">Blog Sections</li>
-          <li class="simple-word">FAQS</li>
-          <li>
-            <button class="footer-btn">
-              browse all <i class="fa-solid fa-arrow-right"></i>
-            </button>
-          </li>
-        </ul>
-      </div>
-
-      <div class="second-footer-list">
-        <ul>
-          <li class="first-word">Ecommerce</li>
-          <li class="simple-word">Product reviews</li>
-          <li class="simple-word">Product List</li>
-          <li class="simple-word">Category previews</li>
-          <li class="simple-word">Shopping Carts</li>
-          <li class="simple-word">category filter</li>
-          <li class="simple-word">Product quick reviews</li>
-          <li class="simple-word">Product Features</li>
-          <li class="simple-word">Store Navigation</li>
-          <li class="simple-word">Promo Scetions</li>
-          <li class="simple-word">Checkout Forms</li>
-          <li class="simple-word">Reviews</li>
-          <li class="simple-word">Order Summary</li>
-          <li class="simple-word">Order History</li>
-          <li>
-            <button class="footer-btn">
-              browse all <i class="fa-solid fa-arrow-right"></i>
-            </button>
-          </li>
-        </ul>
-      </div>
-
-      <div class="third-footer-list">
-        <ul>
-          <li class="first-word">Application UI</li>
-          <li class="simple-word">Product reviews</li>
-          <li class="simple-word">Product List</li>
-          <li class="simple-word">Category previews</li>
-          <li class="simple-word">Shopping Carts</li>
-          <li class="simple-word">category filter</li>
-          <li class="simple-word">Product quick reviews</li>
-          <li class="simple-word">Product Features</li>
-          <li class="simple-word">Store Navigation</li>
-          <li class="simple-word">Promo Scetions</li>
-          <li class="simple-word">Checkout Forms</li>
-          <li class="simple-word">Reviews</li>
-          <li class="simple-word">Order Summary</li>
-          <li class="simple-word">Order History</li>
-          <li>
-            <button class="footer-btn">
-              browse all <i class="fa-solid fa-arrow-right"></i>
-            </button>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="main-footer">
-      <div class="social-media">
-        <i class="fa-brands fa-github-alt"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-regular fa-envelope"></i>
-      </div>
-
-      <div class="main-footer-content">
-        <p>Contact us: <span class="main-footer-email"> hafizjaidi786@gmail.com</span></p>
-      </div>
-
-      <div class="copyright-content">
-        <p><i class="fa-regular fa-copyright"></i>2024 QuasarUI</p>
-      </div>
-    </div>
-  </body>
+  </div>
+</body>
 </html>
