@@ -114,11 +114,10 @@
        gap: 3rem;
    }
 
-   /* Responsive, centered, and balanced */
+   
    .left-side,
    .right-side {
        flex: 0 1 500px;
-       /* don't force fill, allow shrink, base width */
        min-width: 300px;
        max-width: 100%;
    }
@@ -325,7 +324,7 @@
        background-color: #f0f0f0;
    }
 
-   /* Components Grid */
+   /* Components start*/
    .container-box {
 
        display: flex;
@@ -505,6 +504,13 @@
        margin-bottom: 1.5rem;
    }
 
+
+    .pricing-page-2-content-1,
+   .pricing-page-2-content-2,
+   .pricing-page-2-content-3 p{
+    color: #0ea5e9;
+    font-weight: 600;
+   }
    .pricing-page-2-btn {
        padding: 0.5rem 1rem;
        border-radius: 0.5rem;
@@ -768,8 +774,6 @@
    }
 
 
-
-   /* ========== 📱 1. Small Phones / Extra Small Devices (max-width: 480px) ========== */
    @media (max-width: 480px) {
 
        .left-side-btns {
@@ -816,7 +820,6 @@
    }
 
 
-   /* ========== 📱 2. Mobile / Tablets (max-width: 768px) ========== */
    @media (max-width: 768px) {
 
 
@@ -889,8 +892,6 @@
 
 
 
-
-       /* ========== 📱 3. Tablets / Small Laptops (max-width: 900px) ========== */
        @media (max-width: 900px) {
 
            .nav-links{
@@ -904,7 +905,7 @@
                flex-direction: column;
            }
 
-           /* Stack pricing boxes */
+        
            .pricing-container {
                flex-direction: column;
            }
@@ -939,7 +940,7 @@
        }
 
 
-       /* ========== 💻 4. Small Laptops / Large Tablets (max-width: 1024px) ========== */
+
        @media (max-width: 1024px) {
 
 
